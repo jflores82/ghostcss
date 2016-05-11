@@ -1,0 +1,112 @@
+/*	
+	GhostFrame
+	Simple Boilerplate for CSS Designs 
+	Developed by Juliano F.
+	http://github.com/jflores82/ghostcss
+*/
+/* GRIDS */
+/* Portrait Size Grid - Works well for both desktop and mobile - max size: 960 pixels */
+.gridP {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: auto; }
+
+/* Landscape Size Grid - Works better for desktop and tablets - max size: 1280 pixels */
+.gridL {
+  position: relative;
+  width: 100%;
+  max-width: 1280px; }
+
+/* New Row - Each Row needs to be its own div */
+.r::after {
+  clear: both;
+  display: table;
+  content: ""; }
+
+/* Columns Properties */
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12,
+.c13,
+.c14,
+.c15,
+.c16,
+.c17,
+.c18,
+.c19,
+.c20 {
+  float: left;
+  width: 100%; }
+
+@media (min-width: 550px) {
+  .c1 {
+    width: 5%; }
+
+  .c2 {
+    width: 10%; }
+
+  .c3 {
+    width: 15%; }
+
+  .c4 {
+    width: 20%; }
+
+  .c5 {
+    width: 25%; }
+
+  .c6 {
+    width: 30%; }
+
+  .c7 {
+    width: 35%; }
+
+  .c8 {
+    width: 40%; }
+
+  .c9 {
+    width: 45%; }
+
+  .c10 {
+    width: 50%; }
+
+  .c11 {
+    width: 55%; }
+
+  .c12 {
+    width: 60%; }
+
+  .c13 {
+    width: 65%; }
+
+  .c14 {
+    width: 70%; }
+
+  .c15 {
+    width: 75%; }
+
+  .c16 {
+    width: 80%; }
+
+  .c17 {
+    width: 85%; }
+
+  .c18 {
+    width: 90%; }
+
+  .c19 {
+    width: 95%; }
+
+  .c20 {
+    width: 100%; } }
+
+/*# sourceMappingURL=ghostframe.css.map */
