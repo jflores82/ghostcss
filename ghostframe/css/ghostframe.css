@@ -56,13 +56,13 @@
 
 /* Aligment Clases */
 /* Text/in-column aligment */
-.t-c {
+.h-c {
   text-align: center; }
 
-.t-l {
+.h-l {
   text-align: left; }
 
-.t-r {
+.h-r {
   text-align: right; }
 
 /* padding left */
