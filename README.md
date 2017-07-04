@@ -6,6 +6,8 @@ ghostframe was developed to be used as a responsive, lightweight, low-overhead c
 ghostframe does not style any elements, it only contain classes used to position elements in the screen. 
 A couple of alignment classes are also avaiable, but are named to not interfere with the default behaviour of any element, class or framework. 
 
+Current unminified overhead: **2 KB**
+
 
 ## Usage 
 Load the stylesheet into your HTML file
@@ -31,11 +33,11 @@ You can organize your content through the grid as necessary.
 ## Responsiveness:
 You can use 3 different grid sizes, to better fit your content.
 
-gridF - Uses 100% width of the viewport.
+**gridF** - _grid Full width_: Uses 100% width of the viewport.
 
-gridL - Maximum width: 1280px.
+**gridL** - _grid landscape_: Maximum width: 1280px.
 
-gridP - Maximum width: 960px.
+**gridP** - _grid portrait_: Maximum width: 960px.
 
 
 Columns will stay side by side when the resolution's width are greater than 960px.
@@ -63,9 +65,9 @@ You don't need to use all 20 columns:
 ## Aligment Classes:
 You can use the following classes to align content:
 ```html
-<div class="t-c">This will be center aligned</div>
-<div class="t-l">This will be left aligned</div>
-<div class="t-r">This will be right aligned</div>
+<div class="h-c">This will be horizontally center aligned</div>
+<div class="h-l">This will be horizontally left aligned</div>
+<div class="h-r">This will be horizzontally right aligned</div>
 ```
 
 ## Padding Classes:
@@ -87,6 +89,34 @@ Example:
 </div>
 ```
 
+## Other tips
+You mix and match classes to better suit your layout, so don't be affraid to use them.
+
+```html
+<div class="gridP pl-05 pr-05"> <!-- Creates a grid Portrait with 5% padding on both sides -->
+	<div class="r"> <!-- new row -->
+		<div class="c20 h-c pt-10"> <!-- full width div with centralized text and top padding of 10% -->
+			CONTENT GOES HERE
+		</div>
+	</div>
+```
+
+Also, feel free to mix ghostframe classes with your own custom css, that's the idea of having it be non-intrusive on other elements.
+```html
+<div class="gridL bg-red"> <!-- Creates a landscape grid with a custom bg-red class -->
+	<div class="r"> <-- new row -->
+		<div class="c5 h-r font-white font-typography"> <!-- Creates a column with custom font-white and font-typography classes -->
+			CONTENT
+		</div>
+		<div class="c15 h-r pl-10 font-black font-anotherfont"> <!-- Another column with different styling classes -->
+			MORE CONTENT
+		</div>
+	</div>
+</div>
+```
+
+ghostframe can integrate into any custom css code, regardless of the type. 
+You can even integrate ghostframe with bootstrap, although there's little reason to do that, since it was developed exactly to be a lightweight, non-intrusive alternative to Bootstrap.
 
 ## Known Bugs 
 None. 
