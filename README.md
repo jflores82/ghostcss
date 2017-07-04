@@ -32,8 +32,11 @@ You can organize your content through the grid as necessary.
 You can use 3 different grid sizes, to better fit your content.
 
 gridF - Uses 100% width of the viewport.
-gridL - Maximum width: 1280px
-gridP - Maximum width: 960px
+
+gridL - Maximum width: 1280px.
+
+gridP - Maximum width: 960px.
+
 
 Columns will stay side by side when the resolution's width are greater than 960px.
 When it dips below 960px it will stack columns 2 by 2, independent of the original column size.
@@ -68,13 +71,20 @@ You can use the following classes to align content:
 ## Padding Classes:
 There are padding classes avaiable to pad the content in %. 
 
-### Padding Top: pt-05, pt-10, pt-15, pt-20
-### Padding Bottom: pb-05, pb-10, pb-15, pb-20
-### Padding Left: pl-05, pl-10, pl-15, pl-20
-### Padding Right: pr-05, pr-10, pr-15, pr-20
+### Padding Top
+pt-05, pt-10, pt-15, pt-20
+### Padding Bottom
+pb-05, pb-10, pb-15, pb-20
+### Padding Left
+pl-05, pl-10, pl-15, pl-20
+### Padding Right
+pr-05, pr-10, pr-15, pr-20
 
+Example:
 ```html
-<div class="pt-05 pb-05">This contented will be padded 5% from the top (pt-05) and 5% from the bottom (pb-05)</div>
+<div class="pt-05 pb-05">
+	This contented will be padded 5% from the top (pt-05) and 5% from the bottom (pb-05)
+</div>
 ```
 
 
