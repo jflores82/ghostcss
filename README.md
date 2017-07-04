@@ -89,6 +89,23 @@ Example:
 </div>
 ```
 
+## Height Classes:
+There are height classes, to manually set the height of a column. 
+These are named h-X, where X is the % of the viewport. It goes in increments of 10.
+So, the classes are:
+```css
+.h-10 /* 10% of viewport height */
+.h-20 /* 20% of viewport height */
+.h-30 /* 30% of viewport height */
+.h-40 /* 40% of viewport height */
+.h-50 /* 50% of viewport height */
+.h-60 /* 60% of viewport height */
+.h-70 /* 70% of viewport height */
+.h-80 /* 80% of viewport height */
+.h-90 /* 90% of viewport height */
+.h-100 /* 100% of viewport height */
+```
+
 ## Other tips
 You mix and match classes to better suit your layout, so don't be affraid to use them.
 
@@ -116,6 +133,7 @@ Also, feel free to mix ghostframe classes with your own custom css, that's the i
 ```
 
 ghostframe can integrate into any custom css code, regardless of the type. 
+It shouldn't be used to style objects or elements, the idea is to provide a skeleton frame for the structure of the page, only.
 You can even integrate ghostframe with bootstrap, although there's little reason to do that, since it was developed exactly to be a lightweight, non-intrusive alternative to Bootstrap.
 
 ## Known Bugs 
